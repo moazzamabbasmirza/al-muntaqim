@@ -1,10 +1,11 @@
 import React from "react";
+import seaport from "../Assets/seaport-dock-hazards.jpg";
 
 const Cards = () => {
   return (
     <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
       <div class="rounded overflow-hidden shadow-lg">
-        <img class="w-full" src="/mountain.jpg" alt="Mountain" />
+        <img class="w-full" src="/seaport.jpg" alt="Mountain" />
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Mountain</div>
           <p class="text-gray-700 text-base">
@@ -26,7 +27,7 @@ const Cards = () => {
         </div>
       </div>
       <div class="rounded overflow-hidden shadow-lg">
-        <img class="w-full" src="/river.jpg" alt="River" />
+        <img class="w-full" src="/seaport.jpg" alt="River" />
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">River</div>
           <p class="text-gray-700 text-base">
@@ -49,7 +50,7 @@ const Cards = () => {
       </div>
 
       <div class="rounded overflow-hidden shadow-lg">
-        <img class="w-full" src="/forest.jpg" alt="Forest" />
+        <img class="w-full" src="/seaport.jpg" alt="Forest" />
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Forest</div>
           <p class="text-gray-700 text-base">
