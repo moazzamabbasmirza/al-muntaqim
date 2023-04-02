@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 const Home = () => {
   return (
     <div>
+      <Navbar />
       <div className="h-screen">
         <div class="py-8 px-8 pt-6 mx-auto w-full h-full text-center lg:py-16 bg-black">
           <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
