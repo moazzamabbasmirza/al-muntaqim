@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Cards from "./Cards";
 const Home = () => {
   return (
     <div>
@@ -26,6 +27,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Cards />
       <Footer />
     </div>
   );
